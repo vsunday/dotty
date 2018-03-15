@@ -82,7 +82,7 @@ set noshowcmd
 set nofoldenable
 map K <Nop>
 
-set inccommand=split
+" set inccommand=split
 
 set background=dark
 
@@ -104,8 +104,8 @@ let g:ale_statusline_format = ['⨉ %d', '⚠ %d', '']
 " status bar
 set statusline=%F%m%r%h%w\  "fullpath and status modified sign
 set statusline+=\ %y "filetype
-set statusline+=\ %{fugitive#statusline()}
-set statusline+=\ %{ALEGetStatusLine()}
+" set statusline+=\ %{fugitive#statusline()}
+" set statusline+=\ %{ALEGetStatusLine()}
 " this line below pushes everything below it to the right hand side
 set statusline+=%=
 set statusline+=\%l
